@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand" href="{% url 'home' %}">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,6 +27,13 @@
             </ul>
         </div>
     </nav>
+    {% block head %}
+    <div class="container" ><br>
+        <p> Welcome to my portfolio. </p>
+        <h1 style="font-family:Verdana">Jupiter_3x3cu7er</h1>
+        <p> Welcome to my portfolio. </p>
+    </div>
+    {% endblock head %}
     <div class="container mt-4">
         {% block content %}
         {% endblock %}
