@@ -1,0 +1,70 @@
+{% extends './base.html' %} {% load static %} {% block content %}
+<section class="slide-in-bottom">
+  <div class="container w-[90%] 2xl:w-[70%] lg:w-[80%] mx-auto xl:mt-[2rem] mt-[1rem]">
+    <h1 class="text-white text-xl lg:text-2xl 2xl:text-3xl ">Certificates</h1>
+    <div class="grid  xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-col-1 2xl:mt-[2rem] lg:mt-[1rem] mt-[1rem] gap-5 ">
+      <div
+        class="bg-[#303030] px-[1rem] py-[1.5rem] rounded-md border border-[#00D1CD]">
+        <div class="">
+          <img
+            class="object-cover h-full w-full"
+            src="{% static 'media/network-cert.png' %}"
+            alt="" />
+        </div>
+        <h3 class="text-[#00D1CD] text-lg font-bold mt-3">
+          Computer Networks(CRA Training Program)
+        </h3>
+        <p class="text-white mt-[1rem]">
+          completed this course on May 23, 2024
+        </p>
+        <div class="mt-[1.5rem]">
+          <a
+            href=""
+            class="text-[#00D1CD] gap-3 flex items-center justify-center w-full border hover:bg-[#00D1CD] hover:text-gray-800 hover:font-bold rounded-md border-[#00D1CD] xl:px-[2rem] py-[0.4rem]"
+            ><i class="uil uil-clipboard-alt text-2xl"></i> View Certificate</a
+          >
+        </div>
+      </div>
+      <div class="bg-[#303030] px-[1rem] py-[1.5rem] rounded-md border border-[#00D1CD]">
+        <div class="">
+          <img class="" src="{% static 'media/hcia.png' %}" alt="" />
+        </div>
+        <h3 class="text-[#00D1CD] text-lg font-bold mt-3">
+          HCIA-Security V4.02Course
+        </h3>
+        <p class="text-white mt-[1rem]">
+          completed this course on May 23, 2024
+        </p>
+        <div class="mt-[1.5rem]">
+          <a
+            href=""
+            class="text-[#00D1CD] gap-3 flex items-center justify-center w-full  border hover:bg-[#00D1CD] hover:text-gray-800 hover:font-bold rounded-md border-[#00D1CD] xl:px-[2rem] py-[0.4rem]"
+            ><i class="uil uil-clipboard-alt text-2xl"></i> View Certificate</a
+          >
+        </div>
+      </div>
+      <div class="bg-[#303030]  px-[1rem] py-[1.5rem] rounded-md border border-[#00D1CD]">
+        <div class="">
+          <img class="" src="{% static 'media/computerNetwork.png' %}" alt="" />
+        </div>
+        <h3 class="text-[#00D1CD] text-lg font-bold mt-3">
+          Computer Networks
+        </h3>
+        <p class="text-white mt-[1rem]">
+          completed this course on May 23, 2024
+        </p>
+        <div class="mt-[1.5rem]">
+          <a
+            href=""
+            class="text-[#00D1CD] gap-3 flex items-center justify-center w-full  border hover:bg-[#00D1CD] hover:text-gray-800 hover:font-bold rounded-md border-[#00D1CD] xl:px-[2rem] py-[0.4rem]"
+            ><i class="uil uil-clipboard-alt text-2xl"></i> View Certificate</a
+          >
+        </div>
+      </div>
+    </div>
+     <div class="lg:h-[10rem] h-[8rem]">
+      </div>
+  </div>
+</section>
+
+{% endblock content %}
