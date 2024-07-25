@@ -36,8 +36,8 @@ Contact
 
 Feel free to reach out to me for collaboration or any queries related to my projects.
 
-    Email: [your-email@example.com]
-    LinkedIn: [Your LinkedIn Profile]
-    GitHub: [https://github.com/your-github-username]
+    Email: jupiter3x3cu7er@gmail.com
+    LinkedIn: https://www.linkedin.com/in/opoku-godfred-1a41702b3
+    GitHub: https://github.com/3x3cu7er
 
 Thank you for visiting my portfolio repository!
